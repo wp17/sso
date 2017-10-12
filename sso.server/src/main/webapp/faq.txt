@@ -1,0 +1,8 @@
+<%@ page isELIgnored="false"%>
+
+设置整个项目使用el表达式，需要在web.xml中加上 （控制一个项目） 
+<jsp-config>  
+<jsp-property-group> 
+<el-ignored>false</el-ignored> 
+</jsp-property-group>
+</jsp-config>
